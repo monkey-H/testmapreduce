@@ -1,4 +1,4 @@
 scale: 2
 command: hadoop fs -mkdir input
 hadoop fs -put src/readme input
-hadoop jar hadoop-examples-1.2.1.jar wordcount input/readme output
+hadoop jar src/hadoop-examples-1.2.1.jar wordcount input/readme output
